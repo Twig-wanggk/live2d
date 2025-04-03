@@ -239,7 +239,7 @@ async function loadWidget(config) {
 
 	function welcomeMessage() {
 		let interAction;
-		if (location.pathname === "/lrplrplrp/") { // 如果是主页，可在浏览器后台输入location.pathname确定判断条件 
+		if (location.pathname === "/Twig-wanggk/") { // 如果是主页，可在浏览器后台输入location.pathname确定判断条件 
 			loadInteraction(waifuTips.messages.home)
 		} 
 		if (document.referrer !== "") {
