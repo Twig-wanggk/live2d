@@ -1,6 +1,6 @@
 // 注意：live2d_path 参数应使用绝对路径
-const live2d_path = "https://github.com/Twig-wanggk/live2d"// const live2d_path = "https://fastly.jsdelivr.net/gh/Twig-wanggk/live2d@master/";
-const model_path="https://github.com/Twig-wanggk/live2d_api";//const model_path="https://raw.bgithub.xyz/Twig-wanggk/live2d_api/master/";
+const live2d_path = "https://github.com/Twig-wanggk/live2d"// 曾尝试过改成后面的：const live2d_path = "https://fastly.jsdelivr.net/gh/Twig-wanggk/live2d@master/";
+const model_path="https://github.com/Twig-wanggk/live2d_api";//曾尝试过改成后面的：const model_path="https://raw.bgithub.xyz/Twig-wanggk/live2d_api/master/";
 
 // 封装异步加载资源的方法
 function loadExternalResource(url, type) {
